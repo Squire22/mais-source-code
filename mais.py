@@ -41,7 +41,7 @@ with open('data.csv', 'r') as csv_file:   # opens the file for reading
 
         finalarray= []
         i=0
-        while i < len(array):      creates a final array to be written to a csv to be plotted
+        while i < len(array):      #creates a final array to be written to a csv to be plotted
             finalarray[i][0] = array[i][0]
             finalarray[i][1] = array[i][3]
 
